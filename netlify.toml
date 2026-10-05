@@ -1,0 +1,7 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+# Applies database migrations automatically during deployment
+[build.environment]
+  NETLIFY_DATABASE_AUTO_MIGRATE = "true"

@@ -1,0 +1,16 @@
+{
+  "name": "my-fullstack-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^2.8.0",
+    "netlify-cli": "^17.0.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "@netlify/database": "^2.0.1"
+  }
+}
